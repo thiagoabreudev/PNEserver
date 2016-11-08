@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'PNEserver.wsgi.application'
 DATABASES = {
     'default': {
         'HOST': 'localhost',
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'pne',
         'USER': 'postgres',
         'PASSWORD': ''
